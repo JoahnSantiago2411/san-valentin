@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>San Valentin 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio autoplay loop>
+    <source src="amame.mp3" type="audio/mpeg">
+</audio>
+
+<div class="hearts"></div>
+
+<div class="book">
+
+<!-- PORTADA -->
+<section class="page active">
+    <h4>🌻ENTREGA ESPECIAL🌻</h4>
+    <p>De: <span>Tu santi</span></p>
+    <p>Para: <span>El amor de mi alma Sofi</span></p>
+
+    <div class="alerta">
+        ⚠️ Advertencia<br>
+        Este contenido puede provocar
+        sonrisas inevitables,
+        nervios bonitos
+        y un San Valentín inolvidable.
+    </div>
+
+    <button onclick="nextPage()">Deseo continuar</button>
+</section>
+
+<!-- PAG 2 -->
+<section class="page">
+    <h1 class="titulo fade">San Valentin</h1>
+    <h3 class="fade">Una invitación que no pasa desapercibida</h3>
+
+    <img src="img/foto1.jpg" class="foto fade">
+
+    <p class="fade">
+        Algunas historias no se planean,
+        simplemente ocurren.
+        Es el arte de coincidir,
+        cuando dos almas se reconocen.
+
+        Las conexiones verdaderas existen,
+        hay almas que se encuentran
+        incluso después de tanto buscarse,
+        y cuando lo hacen,
+        se reconocen y conectan al instante.
+
+        Como nosotros dos, mi amor.
+    </p>
+
+    <button onclick="nextPage()">Página siguiente</button>
+</section>
+
+<!-- PAG 3 -->
+<section class="page">
+    <h2 class="fade">Crónica de una conexión</h2>
+
+    <p class="fade">
+        Nada fue casualidad.
+        Nada ocurrió por accidente.
+    </p>
+
+    <p class="fade">
+       Por algo nos encontramos,
+       por algo coincidimos.
+       Por algo, entre tantas personas, decidí acercarme a ti.
+
+       Por algo mis ojos te buscan,
+       por algo mis latidos dicen tu nombre,
+       por algo mi piel te anhela
+       y mi lealtad te pertenece.
+
+       Algo hemos de tener,
+       algo hermoso,
+       algo has de ser en mi vida…
+       o quizás, todo.
+    </p>
+
+    <p class="fade">
+        Cada palabra, cada mirada,
+        cada silencio compartido
+        fue construyendo algo profundo,
+        algo que no se fuerza,
+        pero se siente.
+        Amarte es lo más increíble que me ha pasado.
+        Agradezco cada día tenerte, compartir tus abrazos, tus risas y tu calma.
+
+        Amo cómo me haces sentir, la paz de estar a tu lado,
+        abrazarte fuerte, besarte despacio y perderme en ti.
+
+        Amo cada detalle tuyo, tu risa, tu voz, tu forma de quererme.
+        Te amo más profundo de lo que alguna vez imaginé.
+    </p>
+
+    <p class="fade">
+        No fue prisa ni impulso.
+        Fue cariño creciendo con calma,
+        con nervios bonitos
+        y la certeza silenciosa
+        de que nuestras almas
+        estaban empezando a unirse.
+    </p>
+
+    <img src="img/foto2.jpg" class="foto fade">
+
+    <button onclick="nextPage()">Continuar</button>
+</section>
+
+<!-- PAG 4 -->
+<section class="page">
+    <h2 class="fade">🌻Motivos que me llevan a elegirte🌻</h2>
+
+    <div class="motivos fade">
+        <p><b>01.</b> Porque contigo puedo ser yo,
+        sin máscaras, sin miedo,
+        y aun así sentirme suficiente.</p>
+
+        <p><b>02.</b> Porque tu sonrisa
+        tiene la capacidad de cambiar mis días
+        incluso cuando todo parece pesado.</p>
+
+        <p><b>03.</b> Porque a tu lado el mundo
+        se siente más tranquilo,
+        como si todo encontrara su lugar.</p>
+
+        <p><b>04.</b> Porque contigo entendí
+        que el amor no siempre hace ruido,
+        a veces simplemente se queda.</p>
+
+        <p><b>05.</b> Porque sin buscarlo
+        te convertiste en mi lugar seguro,
+        en mi calma
+        y en mi elección diaria.</p>
+
+        <p><b>05.</b> Porque me enamore de ti 
+       Karoll Sofia Cifuentes Ussa, Por que te amo con mi alma.
+       Te elijo a ti, por que eres la mujer con la que lo quiero lograr todo,
+       con la que quiero pasar el resto de mis dias y entregarte todo lo que soy y lo que puedo dar.</p>
+    </div>
+
+    <img src="img/foto3.jpg" class="foto pequeña fade">
+
+    <button onclick="nextPage()">La pregunta final</button>
+</section>
+
+<!-- FINAL -->
+<section class="page final">
+    <h2 class="fade">La pregunta final...</h2>
+
+    <p class="fade">No prometo perfección, pero sí intención.</p>
+
+    <p class="fade">
+        Prometo cuidarte,
+        escucharte
+        y elegirte incluso
+        en los días grises.
+    </p>
+
+    <p class="fade">
+        Prometo caminar a tu lado,
+        celebrar lo bonito,
+        aprender de lo difícil
+        y construir recuerdos
+        que algún día recordemos sonriendo.
+    </p>
+
+    <p class="fade">
+        Y sobre todo,
+        prometo que lo nuestro
+        no sea solo un día,
+        sino una historia
+        que valga la pena.
+    </p>
+
+    <h1 class="pregunta fade">¿Quieres ser mi San Valentín? ❤️</h1>
+
+    <div class="botones">
+        <button onclick="yes()">CLARO QUE SII!! 🌻❤️</button>
+        <button id="noBtn" onmouseover="mover()">UY NO</button>
+    </div>
+
+    <p id="respuesta"></p>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
